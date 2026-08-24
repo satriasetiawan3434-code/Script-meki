@@ -27,7 +27,7 @@ titleLabel.Font = Enum.Font.Gotham
 titleLabel.TextTransparency = 1
 titleLabel.Parent = screenGui
 
-local LOADER_URL = "https://raw.githubusercontent.com/Its3rr0rsWRLD/Index/main/loader.json"
+local LOADER_URL = "https://raw.githubusercontent.com/satriasetiawan3434-code/Script-meki/refs/heads/main/Meki.json"
 local prefetchConfig, prefetchConfigErr
 local prefetchScript, prefetchScriptErr
 task.spawn(function()
