@@ -158,7 +158,7 @@ Container.BackgroundTransparency = 1
 Container.Active = true
 Container.Draggable = true -- Logo aur Menu dono sath mein chipke hue drag honge!
 
--- 1. Gol Circular Logo ("MR SPIRROW" + Rainbow Lighting) - Yeh container ke andar fix hai
+-- 1. Gol Circular Logo ("meki njir" + Rainbow Lighting) - Yeh container ke andar fix hai
 local ToggleButton = Instance.new("ImageButton", Container)
 ToggleButton.Size = UDim2.new(0, 55, 0, 55)
 ToggleButton.Position = UDim2.new(0, 0, 0, 0)
@@ -174,7 +174,7 @@ LogoStroke.Thickness = 3
 
 local LogoText = Instance.new("TextLabel", ToggleButton)
 LogoText.Size = UDim2.new(1, 0, 1, 0)
-LogoText.Text = "MR\nSPIRROW"
+LogoText.Text = "meki\nhub"
 LogoText.TextSize = 10
 LogoText.Font = Enum.Font.SourceSansBold
 LogoText.TextColor3 = Color3.new(1, 1, 1)
@@ -221,11 +221,11 @@ task.spawn(function()
     end
 end)
 
--- Menu Title: Made by MR SPIRROW (Rainbow Lighting)
+-- Menu Title: Made by meki njir (Rainbow Lighting)
 local Title = Instance.new("TextLabel", Frame)
 Title.Size = UDim2.new(0, 200, 0, 28)
 Title.Position = UDim2.new(0, 10, 0, 6)
-Title.Text = "Made by MR SPIRROW"
+Title.Text = "Made by meki hub"
 Title.TextSize = 13
 Title.Font = Enum.Font.SourceSansBold
 Title.BackgroundTransparency = 1
