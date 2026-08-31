@@ -62,7 +62,7 @@ local function createKeyGUI()
     Instance.new("UICorner", getKeyBtn).CornerRadius = UDim.new(0, 6)
 
     getKeyBtn.MouseButton1Click:Connect(function()
-        local url = "https://chat.whatsapp.com/E7ZorHopiwPLn5HfUFfLNi?s=cl&p=a&mlu=4"
+        local url = "https://direct-link.net/3821198/c0U2lgPgMnJA"
         local success = pcall(function()
             setclipboard(url)
         end)
