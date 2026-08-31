@@ -61,7 +61,7 @@ local function createKeyGUI()
     getKeyBtn.TextSize = 14
     Instance.new("UICorner", getKeyBtn).CornerRadius = UDim.new(0, 6)
     getKeyBtn.MouseButton1Click:Connect(function()
-        local url = "https://chat.whatsapp.com/E7ZorHopiwPLn5HfUFfLNi?s=cl&p=a&mlu=4"
+        local url = "https://direct-link.net/3821198/c0U2lgPgMnJA"
         pcall(function()
             game:GetService("GuiService"):OpenBrowserWindow(url)
         end)
